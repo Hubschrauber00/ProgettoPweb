@@ -1,0 +1,119 @@
+#game-container{
+    display:flex;
+    background-color:white;
+    margin:0 auto;
+    border: 3px inset rgba(0,219,36,1);
+    border-radius:3px;
+    box-shadow: 4px 4px 20px -6px rgba(0,0,0,0.71);
+}
+#playground{
+    display:flex;
+    flex-direction:column;
+    margin:0 16px;
+    border:1px solid grey;
+    border-radius:3px;
+    box-shadow: 4px 4px 20px -6px rgba(0,0,0,0.71);
+}
+#scorefield{
+    margin:16px;
+}
+#nextpiece{
+    display:flex;
+    flex-direction: column;
+    border:2px solid grey;
+    margin:32px;
+    border-radius:3px;
+    box-shadow: 4px 4px 20px -6px rgba(0,0,0,0.71);
+}
+#side-container{
+    display:flex;
+    flex-direction: column;
+    border:1px solid grey;
+    border-radius:3px;
+    margin:0 16px;
+    box-shadow: 4px 4px 20px -6px rgba(0,0,0,0.71);
+}
+#chart{
+    box-shadow: 4px 4px 20px -6px rgba(0,0,0,0.71);
+    border: 2px inset rgba(0,219,36,1);
+    margin: 0 auto;
+    z-index: 4;
+    position: fixed;
+    background-color: white;
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.row{
+    display:flex;
+    flex-direction:row;
+}
+.baseblock{
+    border:1px solid lightgrey;
+    border-radius:2px;
+    display:inline-flex;
+    margin:0;
+    z-index:2;
+}
+#chart p{
+    margin:1em 0;
+}
+.purple{
+    background-color:purple;
+}
+.red{
+    background-color: red;
+}
+.yellow{
+    background-color: yellow;
+}
+.blue{
+    background-color: blue;
+}
+.green{
+    background-color: green;
+}
+.lightblue{
+    background-color:lightskyblue;
+}
+.firstrow{
+    display:none;
+}
+.orange{
+    background-color:orange;
+}
+
+@media screen and (min-width: 1400px) {
+    #game-container{
+        padding:16px;
+        width:610px;
+    }
+    #chart{
+        top: 10%;
+        left: 37%;
+        padding: 64px;
+    }
+    .baseblock{
+        width:32px;
+        height:32px;
+    }
+}
+@media screen and (max-width:1399px){
+    #game-container{
+        padding:10px;
+        width:520px;
+    }
+    #nextpiece{
+        margin:60px;
+    }
+    #chart{
+        top:50px;
+        left:27%;
+        padding:32px;
+    }
+    .baseblock{
+        width:22px;
+        height:22px;
+    }
+}

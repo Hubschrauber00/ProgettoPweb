@@ -1,0 +1,44 @@
+.terms_privacy_content{
+    width:50%;
+    height:80%;
+    margin:50px auto;
+    background: rgba(255, 255, 255, 0.6);
+    padding:2em 3em;
+    box-shadow: 4px 4px 20px -6px rgba(0,0,0,0.71);
+    border:2px outset;
+    border-color: rgba(0,219,36,1) rgba(135,255,136,1);
+}
+.terms_privacy_content h1{
+    font-weight:bold;
+    font-size:2em;
+    margin-bottom:1em;
+    text-align: center;
+}
+.terms_privacy_content h2{
+    font-size:1.5em;
+    margin:1em 0;
+    text-align: center;
+}
+.terms_privacy_content dt{
+    font-weight:bold;
+    margin-right:1em;
+}
+
+.terms_privacy_content p,ol{
+    line-height: 1.5em;
+    text-align: center;
+}
+#commands{
+    margin:0 auto;
+    width:50%;
+}
+#commands dl{
+    line-height: 1.5em;
+    margin-left:1em;
+}
+#commands dd{
+     margin-left:2em;
+ }
+hr{
+    margin-top:1em;
+}
